@@ -143,9 +143,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PaczekController.cs" />
+    <Compile Include="Controllers\PaczunioController.cs" />
+    <Compile Include="Controllers\PrzywitanieController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Formularz.cs" />
+    <Compile Include="Models\Paczunio.cs" />
+    <Compile Include="Models\Testowa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -185,10 +191,14 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Paczek\Index.cshtml" />
+    <Content Include="Views\Paczek\Details.cshtml" />
+    <Content Include="Views\Przywitanie\Index.cshtml" />
+    <Content Include="Views\Przywitanie\Create.cshtml" />
+    <Content Include="Views\Paczunio\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
